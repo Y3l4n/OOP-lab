@@ -1,0 +1,6 @@
+After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain
+Title của 2 object trên vẫn giữ nguyên là vì hàm swap() này chỉ thực hiện đổi chỗ 2 tham chiếu của 2 object jungleDVD và cinderellaDVD, hiểu cách khác 2 DVD được hoán đổi trong hàm swap chỉ là 2 DVD bản sao khi đổi không ảnh hưởng đén bản chính
+
+
+After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed
+Do là sau lời gọi hàm changeTitle(), thông qua object tham chiếu trỏ đến object jungleDVD thì title của object này đã được thay đổi thông qua message setTitle().
