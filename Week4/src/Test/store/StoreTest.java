@@ -1,7 +1,7 @@
-package test.store;
+package Test.store;
 
-import aims.store.Store;
-import test.media.MediaObjects;
+import AIMS.Store.Store;
+import Test.media.MediaObjects;
 
 public class StoreTest extends MediaObjects {
     public static void main(String[] args) {

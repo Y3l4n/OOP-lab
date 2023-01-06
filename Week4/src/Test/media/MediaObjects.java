@@ -1,11 +1,9 @@
 package Test.media;
 
-package test.media;
-
-import aims.media.book.Book;
-import aims.media.disc.CompactDisc;
-import aims.media.disc.DigitalVideoDisc;
-import aims.track.Track;
+import AIMS.media.Book;
+import AIMS.media.CompactDisc;
+import AIMS.media.DigitalVideoDisc;
+import AIMS.media.Track;
 
 public class MediaObjects {
         protected static DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation", 19.95,
