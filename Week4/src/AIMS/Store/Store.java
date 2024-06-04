@@ -6,7 +6,8 @@ import AIMS.media.Media;
     
 public class Store {
 
-    private List<Media> storeItems = new ArrayList<Media>();
+    private ArrayList<Media> storeItems = new ArrayList<Media>();
+    
 
     public void printDetail() {
         System.out.println("Store items:");
@@ -15,11 +16,8 @@ public class Store {
         }
     }
 
-    public boolean addMedia(Media media) {
-        if (storeItems.contains(media))
-            return false;
+    public void addMedia(Media media) {
         storeItems.add(media);
-        return true;
     }
 
     public boolean removeMedia(Media media) {
@@ -33,6 +31,10 @@ public class Store {
 
     public Media searchMedia(String title) {
         return storeItems.stream().filter(media -> media.getTitle().equalsIgnoreCase(title)).findFirst().orElse(null); 
+    }
+
+    public ArrayList<Media> getStoreItems() {
+        return storeItems;
     }
 }
 
