@@ -1,0 +1,2 @@
+Press the Ctrl + . or Ctrl + ~ shortcut to invoke the Code Actions menu.
+Select Add Getter or Add Setter from the menu.
